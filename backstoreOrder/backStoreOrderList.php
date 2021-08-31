@@ -1,5 +1,15 @@
 <?php
 session_start();
+
+if($_SESSION['loggedIn']){
+    
+}
+    //allow
+else{
+    //redirect to the login page
+    header('Refresh:1;url=index.php');
+    // header('Location: /index.php'); 
+  }
 ?>
 
 <!DOCTYPE html>
