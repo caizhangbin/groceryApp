@@ -43,7 +43,8 @@ if (isset($_POST['login'])) {
                     $username = preg_replace('/[^A-Za-z0-9]/', '', $_POST['username']);
                     $password = $_POST['password'];
                     $_SESSION['adminname'] = "Admin " . $username;
-                    header('Refresh:1;url=backstoreMain.php?logged');
+                    // header('Refresh:1;url=backstoreMain.php?logged');
+                    header('Refresh:1;url=backstoreMain.php');
                     
                     die;
                 }
