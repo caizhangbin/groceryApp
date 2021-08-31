@@ -209,7 +209,7 @@ if (isset($_POST['login'])) {
         }
 
         .menu-ul li {
-            float: left;
+            /* float: left; */
             padding: 25px 25px 0px 25px;
             display: inline-block;
             list-style: none;
